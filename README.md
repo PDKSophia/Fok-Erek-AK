@@ -23,3 +23,76 @@
 - [ ] ...
 
 #### 部分界面
+
+<img src='https://github.com/Fok-Erek-AK/i/raw/master/image/fok-1.png'>
+
+<img src='https://github.com/Fok-Erek-AK/i/raw/master/image/fok-2.png'>
+
+<img src='https://github.com/Fok-Erek-AK/i/raw/master/image/fok-3.png'>
+
+<img src='https://github.com/Fok-Erek-AK/i/raw/master/image/fok-4.png'>
+
+### 文件架构
+```
+·
+├── package.json
+│ 
+├── dist                           打包的数据  
+│ 
+├── src
+│   ├── assets                      图片等资源文件
+│   │                    
+│   ├── components                  
+│   │    ├─AudioMusic               Audio播放组件  
+│   │    ├─Entrance                 首页入口组件    
+│   │    ├─FokErekHeader            首页标题显示组件   
+│   │    ├─Modal                    对话弹窗组件                  
+│   │    └─ ... 
+│   │
+│   ├── lib                    
+│   │    ├─tool.js                  全局函数文件，比如 加载框，提示框等
+│   │    └─ ... 
+│   │             
+│   ├── page
+│   │    ├─index                    小程序首页                      
+│   │    ├─movie                    视频主页
+│   │    ├─music                    音乐主页     
+│   │    ├─weather                  天气主页             
+│   │    └─ ...                
+│   │
+│   ├── service                    与服务器相关文件
+│   │    ├─city                      
+│   │    ├─index             
+│   │    └─ ...  
+│   │
+│   ├── store                       Redux状态机    
+│   │    ├─actions                  
+│   │    ├─constants                
+│   │    ├─reducers            
+│   │    ├─index.js                         
+│   │    └─ ... 
+│   │    
+│   └─
+│                   
+└─
+```
+
+### 相关链接
+
+博客 : http://blog.pengdaokuan.cn:4001
+ 
+掘金 : https://juejin.im/user/594ca8a35188250d892f4139
+ 
+Erek-Resume : https://github.com/PDKSophia/erek-resume
+
+Erek-Editor: https://github.com/PDKSophia/erek-editror
+ 
+Vue-erek-manage: https://github.com/PDKSophia/vue-erek-manage
+
+图标制作地址: https://shields.io/#/
+
+-----
+ 
+版权所有Copyright © 2018 by PDK 
+ 
+All rights reserved。
