@@ -1,0 +1,106 @@
+.fok-erek-music-container{
+  padding: .6rem .8rem;
+  border-bottom: 12px solid  #f6f6f6;
+
+  >.fok-erek-music-lable {
+    width: 100%;
+    color: rgba(43, 43, 43, 0.6);
+    font-size: .72rem;
+    margin-bottom: .8rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+  >.fok-erek-music-meta-header {
+    padding-bottom: 36px;
+    border-bottom: 2px solid #f2f2f2;
+
+    >.fok-erek-music-meta-title {
+      color: #333333;
+      font-size: 1rem;
+      line-height: 1.6rem;
+    }
+
+    >.fok-erek-music-meta-author {
+      font-size: .78rem;
+      margin-top: .5rem;
+      color: rgba(43, 43, 43, 0.6);  
+    }
+  }
+
+  >.for-erek-music-meta-playbox {
+    width: 100%;
+    height: 400px;
+    border-bottom: 2px solid #f2f2f2;
+    text-align: center;
+
+    >.for-erek-music-bgimage-box {
+        width: 100%;
+        height: 400px;
+        border-radius: 50%;
+        background-repeat:no-repeat;
+        background-size : cover;
+        text-align: center;
+
+        >.for-erek-music-cover-image {
+          padding-top: 20px;
+
+          >Image {
+            width: 360px;
+            height: 360px;
+            border-radius: 50%;
+          }
+        }
+
+        >.for-erek-music-fixed-icon {
+            position: relative;
+            top: -57%;
+            left: 45%;
+            width: 80px;
+            height: 80px;
+            
+            >Image {
+                width: 80px;
+                height: 80px;
+            }
+        }
+    }
+  }
+
+  >.for-erek-music-meta-content {
+    font-size: .72rem;
+    margin-top: .6rem;
+    line-height: 1.8rem;
+    color: rgba(43, 43, 43, 0.6);
+  }
+}
+
+// 一开始为暂停状态，播放按钮显示，暂停按钮不显示
+.fok-play-icon {
+  display: block;
+}
+.fok-pause-icon {
+  display: none;
+}
+
+// 当前播放的歌曲，为播放状态，播放按钮不显示，暂停按钮显示
+.fok_erek_icon_hidden {
+  display: none !important;
+}
+.fok_erek_icon_show {
+  display: block  !important;
+}
+
+.fok-erek-rotates {
+  -webkit-transform: rotate(360deg);
+  animation: rotation 10s linear infinite;
+  -moz-animation: rotation 10s linear infinite;
+  -webkit-animation: rotation 10s linear infinite;
+  -o-animation: rotation 10s linear infinite;
+}
+@-webkit-keyframes rotation{
+  from {-webkit-transform: rotate(0deg);}
+  to {-webkit-transform: rotate(360deg);}
+}

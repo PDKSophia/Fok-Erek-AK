@@ -1,0 +1,46 @@
+.bg-weather {
+  background:#32715a;
+  height: 430px;
+  text-align: center;
+  padding-top: 120px;
+  
+  > .cate {
+      font-size: 40px;
+      color : white;
+      margin-bottom: 25px;
+    }
+    
+  > .city {
+      font-size: 40px;
+      margin-bottom: 40px;
+      color : white;
+    }
+    
+  > .num {
+      font-size: 60px;
+      color : white;
+    }
+}
+
+.after-day-weather {
+  padding: 3% 5%;
+  padding-bottom: 0;
+  
+  > .weather-cell {
+      height: 70px;
+      
+      > .which-day {
+          float: left;
+          color: #555;
+          font-size: 40px;
+          margin-top: 10px;
+        }
+        
+      > .temperature {
+          float:right;
+          color: #555;
+          font-size: 40px;
+          margin-top: 10px;
+        }
+    }
+}

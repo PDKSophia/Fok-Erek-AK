@@ -1,0 +1,51 @@
+.bg-box{
+    height: 380px;
+    width: 100%;
+    background: #32715a;
+    color: white;
+    padding-top: 100px;
+
+    > .flex-h{
+        justify-content: center;
+        display: flex;
+    }
+    
+    > .h-title{
+        font-size: 58px;
+    };
+    
+    > .h-content{
+        font-size: 30px;
+        padding-top: 50px;
+    };
+    
+    > .h-summary{
+        font-size: 32px;
+        padding: 30px 50px;
+        text-align: center;
+        line-height: 50px;
+    }
+}
+.open-test{
+    height: 350px;
+    width: 100%;
+    background-color: #32715a;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+    > Text{
+        text-align: center;
+        width: 100%;
+        color: white;
+        font-size: 48px;
+    }
+    
+    > button.btn-server-test{
+        width: 30%;
+        height: 80px;
+        background : #27d4ff;
+        color: white;
+        font-size: 32px;
+    }
+}
