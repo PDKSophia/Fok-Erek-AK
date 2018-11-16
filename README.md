@@ -24,13 +24,11 @@
 
 #### 部分界面
 
-<img src='https://github.com/Fok-Erek-AK/i/raw/master/image/fok-1.png'>
+<img src='./image/fok-1.png' width=240 height=520>
 
-<img src='https://github.com/Fok-Erek-AK/i/raw/master/image/fok-2.png'>
+<img src='./image/fok-3.png' width=240 height=520>
 
-<img src='https://github.com/Fok-Erek-AK/i/raw/master/image/fok-3.png'>
-
-<img src='https://github.com/Fok-Erek-AK/i/raw/master/image/fok-4.png'>
+<img src='./image/fok-4.png' width=240 height=520>
 
 ### 文件架构
 ```
